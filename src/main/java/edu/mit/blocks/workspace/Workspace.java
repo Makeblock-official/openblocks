@@ -837,7 +837,7 @@ public class Workspace extends JLayeredPane implements ISupportMemento, RBParent
     	setMaxBlockId(newRoot, originalLangRoot);
     	
         //reset procedure output information POM finishload
-        ProcedureOutputManager.finishLoad();
+        //ProcedureOutputManager.finishLoad();
 
         if (newRoot != null) {
             PageDrawerLoadingUtils.loadBlockDrawerSets(this, originalLangRoot, factory); //
