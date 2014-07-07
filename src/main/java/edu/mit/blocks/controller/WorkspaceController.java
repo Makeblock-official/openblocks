@@ -13,6 +13,7 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.util.List;
@@ -38,7 +39,6 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-
 import javax.xml.xpath.XPathFactory;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpression;
